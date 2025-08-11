@@ -1,3 +1,5 @@
+import { Hedvig_Letters_Sans } from "next/font/google";
+
 export const Skill_data = [
     {
       skill_name: "Html 5",
@@ -240,8 +242,6 @@ export const Skill_data = [
   
   ];
   
-  
-  
   export const Other_skill = [
     {
       skill_name: "Go",
@@ -249,9 +249,27 @@ export const Skill_data = [
       width: 60,
       height: 60,
     },
+
+    {
+      skill_name: "AWS",
+      Image: "/aws.svg",
+      width: 83,
+      height: 83,
+    },
+
+    {
+      skill_name: "Python",
+      Image: "/python.svg",
+      width: 87,
+      height: 87,
+    },
+
+    {
+      skill_name: "GitHub",
+      Image: "/github.svg",
+      width: 82,
+      height: 82,
+    },
   ];
-  
-  
-  
   
   

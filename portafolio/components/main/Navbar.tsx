@@ -13,13 +13,10 @@ const Navbar = () => {
           <Image
             src="/victoria.png"
             alt="logo"
-            width={55}
-            height={55}
+            width={125}
+            height={70}
             className="cursor-pointer hover:animate-slowspin"
           />
-          <span className="font-bold ml-2 hidden md:block text-gray-300">
-            EncantadoraDeCodigo
-          </span>
         </a>
 
         <div className="flex items-center justify-between border border-[#7042f861] bg-[#0300145e] mr-4 px-4 py-2 rounded-full text-gray-200 w-[500px] h-full">

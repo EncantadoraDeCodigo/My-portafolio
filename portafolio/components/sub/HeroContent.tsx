@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer
+            Fullstack Developer & Data Analyst
           </h1>
         </motion.div>
 
@@ -33,12 +33,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-          Shaping the future
+          From prototype to
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              with innovative {" "}
+              production—secure, scalable {" "}
             </span>
-            tech solutions
+            and maintainable.
           </span>
         </motion.div>
 
@@ -46,8 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m Victoria a Full Stack Developer with experience in building dynamic websites, crafting scalable APIs, and implementing seamless integrations. Explore my projects and skills to see how I can help you achieve your goals.
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m Victoria, a Full-Stack Software Engineer who takes products from prototype to production with a focus on security, scalability, and maintainability. I build UIs with React/Angular, develop APIs in Node.js (Express) and Python/Django, and design data layers in PostgreSQL, MySQL, and MongoDB. I use Docker, AWS, Git/GitHub, and CI/CD for reliable releases. I also train AI models (LLM evaluation and improvement) and, as a data analyst, clean and prepare datasets, build predictive models, and turn results into dashboards and actionable insights. I care about performance, accessibility, and clean code turning ambiguous requirements into measurable, maintainable deliverables.
         </motion.p>
         
       </div>

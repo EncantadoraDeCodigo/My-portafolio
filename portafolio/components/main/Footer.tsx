@@ -1,13 +1,11 @@
 import React from "react";
 import {
-    RxDiscordLogo,
     RxInstagramLogo,
     RxTwitterLogo,
     RxLinkedinLogo,
 } from "react-icons/rx";
 
 import { FaYoutube } from "react-icons/fa";
-import { FaInstagram } from 'react-icons/fa';
 import { RxGithubLogo } from 'react-icons/rx';
 import { FaLinkedin } from 'react-icons/fa';
 
@@ -33,26 +31,16 @@ const Footer = () => {
 
 
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Discord</span>    
+                        <span className="text-[15px] ml-[6px]"></span>    
                     </p>
                 </div>
 
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
+
                     <a 
-                            href="https://www.instagram.com/victoria_brave_/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="flex flex-row items-center my-[15px] cursor-pointer text-decoration-none"
-                            >
-                            <FaInstagram /> {/* Usa el ícono de Instagram aquí */}
-                            <span className="text-[15px] ml-[6px]">Instagram</span>    
-                            </a>
-                    
-                            <a 
-                                href="https://www.linkedin.com/in/luisa-victoria-sanchez-ramirez-77a564313/" 
+                                href="https://www.linkedin.com/in/victoria-s-ramirez-77a564313/" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="flex flex-row items-center my-[15px] cursor-pointer text-decoration-none"
@@ -60,6 +48,15 @@ const Footer = () => {
                                 <FaLinkedin /> 
                                 <span className="text-[15px] ml-[6px]">LinkedIn</span>    
                             </a>
+                            
+                    <a 
+                            href="https://www.instagram.com/victoria_brave_/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="flex flex-row items-center my-[15px] cursor-pointer text-decoration-none"
+                            >
+                            </a>
+                    
 
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -69,11 +66,14 @@ const Footer = () => {
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
                         <span className="text-[15px] ml-[6px]">luisavs1cantante@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">+57 311 356 5544</span>    
                     </p>
+                    <span className="text-[15px] ml-[6px]">+57 311 356 5544</span>    
+
                 </div>
             </div>
 
-            <div className="mb-[20px] text-[15px] text-center">
+            <div className="pt-[70px] text-[15px] text-center">
                 &copy; EncantadoraDeCodigo 2024 Inc. All rights reserved
             </div>
         </div>

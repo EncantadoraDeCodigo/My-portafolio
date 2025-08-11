@@ -154,7 +154,7 @@ This project is distributed under the **MIT** license.
 
 **Victoria Sánchez**
 
-* LinkedIn: [https://www.linkedin.com/in/luisa-victoria-sanchez-ramirez-77a564313/](https://www.linkedin.com/in/luisa-victoria-sanchez-ramirez-77a564313/)
+* LinkedIn: [[www.linkedin.com/in/victoria-s-ramirez-77a564313](https://www.linkedin.com/in/victoria-s-ramirez-77a564313/)]
 * GitHub: [https://github.com/EncantadoraDeCodigo](https://github.com/EncantadoraDeCodigo)
 
 ---
